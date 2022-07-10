@@ -1,0 +1,7 @@
+<mat-toolbar color="primary" class="mat-custom toolbar">
+  <div fxLayoutAlign="space-between start" fxFlex="100%" fxHide.xs>
+    <button mat-button routerLink="" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="selected">Users</button>
+    <span>User Count = {{count}}</span>
+    <button mat-raised-button *ngIf="users.length===0" color="accent" (click)="this.resetData()">Reset Data</button>
+  </div>
+</mat-toolbar>

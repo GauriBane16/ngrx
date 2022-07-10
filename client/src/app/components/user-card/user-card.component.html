@@ -1,0 +1,5 @@
+<mat-card fxLayout="column" class="mb-30" fxLayoutGap="30px" fxLayoutAlign=""start stretch>
+ <mat-card-title>{{this.user.name}}</mat-card-title>
+ <mat-card-content>{{this.user.email}}</mat-card-content>
+ <button mat-raised-button color="warn" (click)="this.deleteUser(this.user.id)">Delete</button>
+  </mat-card>

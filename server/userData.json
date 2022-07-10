@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Brad Pitt",
+        "email": "brad@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Ed Norton",
+        "email": "norton@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Denzel Washington",
+        "email": "denzel@gmail.com"
+      },
+      {
+        "id": 4,
+        "name": "John Washington",
+        "email": "john@gmail.com"
+      },{
+        "id": 5,
+        "name": "P Norton",
+        "email": "pn@gmail.com"
+      },{
+        "id": 6,
+        "name": "Daniel I",
+        "email": "daniel@gmail.com"
+      },
+      {
+        "id": 7,
+        "name": "Albert I",
+        "email": "albert@gmail.com"
+      }
+]
+

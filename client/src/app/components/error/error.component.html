@@ -1,0 +1,5 @@
+<div fxLayout="column"  fxLayoutGap="20px" fxLayoutAlign="start center">
+  <mat-icon>error_outline</mat-icon>
+  <span>{{this.errorTitle || 'Error Occured'}}</span>
+  <button mat-raised-button color="warn" (click)="tryAgain()">Try Again</button>
+</div>
